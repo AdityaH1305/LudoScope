@@ -9,7 +9,7 @@ load_dotenv()
 class Config:
     # ── Flask ──────────────────────────────────────────────
     SECRET_KEY: str = os.getenv("SECRET_KEY", "steamdb-dev-key")
-    DEBUG: bool = os.getenv("FLASK_DEBUG", "1") == "1"
+    DEBUG: bool = os.getenv("FLASK_DEBUG", "0") == "1"
 
     # ── Steam API ─────────────────────────────────────────
     STEAM_API_TIMEOUT: int = int(os.getenv("STEAM_API_TIMEOUT", "10"))
