@@ -20,7 +20,10 @@
 
   <!-- Recently Viewed -->
   <div class="home-section" id="recent-section" style="display:none;width:100%;max-width:800px;">
-    <h2>🕐 Recently Viewed</h2>
+    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+      <h2>🕐 Recently Viewed</h2>
+      <button onclick="localStorage.removeItem('steamdb_recent'); document.getElementById('recent-section').style.display='none';" class="btn btn-ghost btn-sm" style="font-size: 12px; padding: 4px 8px;">Clear</button>
+    </div>
     <div class="home-scroll" id="recent-scroll"></div>
   </div>
 
