@@ -1,12 +1,12 @@
-# 🎮 LudoScope
+# 🎮 PlayNexus
 
-**LudoScope** is a Steam analytics web application that helps users explore games beyond just price — providing **value scores, regional pricing insights, vibe-based discovery, and smart recommendations**.
+**PlayNexus** is a Steam analytics web application that helps users explore games beyond just price — providing **value scores, regional pricing insights, vibe-based discovery, and smart recommendations**.
 
 ---
 
 ## 🚀 Overview
 
-LudoScope is designed to answer two key questions:
+PlayNexus is designed to answer two key questions:
 
 * 💰 *Is this game worth the price?*
 * 🎭 *What kind of experience does this game offer?*
@@ -101,7 +101,7 @@ It combines real-time data from the Steam Store and Reviews API to deliver meani
 ## 🧱 Project Structure
 
 ```bash
-ludoscope/
+playnexus/
 │
 ├── app.py                  # Flask entry point (routes only)
 ├── config.py               # Configuration and environment variables
@@ -198,8 +198,8 @@ Top-scoring vibes are displayed.
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/yourusername/ludoscope.git
-cd ludoscope
+git clone https://github.com/yourusername/playnexus.git
+cd playnexus
 pip install -r requirements.txt
 python app.py
 ```
@@ -240,7 +240,7 @@ gunicorn app:app
 
 ## 📌 Summary
 
-LudoScope is a full-stack project that combines:
+PlayNexus is a full-stack project that combines:
 
 * Data processing
 * API integration
